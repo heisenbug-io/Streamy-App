@@ -15,13 +15,13 @@ This is a Streaming App that allows you Create, Read, Update and Delete your Str
 - https://console.developers.google.com/apis/
 
 ----------------------------------------------------------------------------------------------------------------------------
-Please configure the following to avoid any errors.
+# Please configure the following to avoid any errors.
 
-# src/apis/stream.js - Change the baseURL to point to the right URL of your json.server
+- src/apis/stream.js - Change the baseURL to point to the right URL of your json.server
 
-# src/components/streams/StreamShow.js :: line 37 - Change the URL to point to the right URL of your Node Media Server
+- src/components/streams/StreamShow.js :: line 37 - Change the URL to point to the right URL of your Node Media Server
 
-# src/components/GoogleAuth.js :: line 10 - Insert your GAPI key for Google OAuth.
+- src/components/GoogleAuth.js :: line 10 - Insert your GAPI key for Google OAuth.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
